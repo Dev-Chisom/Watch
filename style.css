@@ -11,11 +11,10 @@ body{
    
 }
 .light-text{
-    color: #999;
+    color: #979797;
 }
 div{
-    width: 70%;
-    height: 80vh;
+    width: 375px;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -28,8 +27,9 @@ div{
     margin: 20px;
 }
 .header h2{
-    line-height: 1.7rem;
-    font-weight: 3rem;
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: normal;
 }
 .header p{
     color: #ff473a;
@@ -41,13 +41,13 @@ div{
 }
 img{
     align-items: center;
-    margin-top: 0;
+    margin-top: 10px;
 }
 .dot{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 10px 10px;
     background-color: #ff473a;
     border-radius: 50%;
     display: inline-block;
@@ -58,7 +58,7 @@ img{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 10px 10px;
     background-color: #666;
     border-radius: 50%;
     display: inline-block;
@@ -73,7 +73,9 @@ img{
     font-size: 1rem;
 }
 .content h2{
+    margin-top: 10px;
     margin-bottom: 1.7rem;
+    font-size: 24px;
 }
 button{
     display:inline-block;
@@ -87,20 +89,9 @@ button{
     cursor: pointer;
     margin-top: 1rem;
     margin-left: 3rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    
 }
-@media screen and (max-width: 768px){
-    .header h2{
-        font-size: 1rem;
-        font-weight: 1rem;
-    }
-    .header p{
-        font-size: 1rem;
-    }
-    .button{
-        font-size: 10px;
-        padding: 5px 10px;
-    }
-}
+
 
 
