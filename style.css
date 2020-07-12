@@ -22,9 +22,12 @@ div{
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     margin: 20px;
+    margin-left: 0em;
+    margin-right: 0em;
+
 }
 .header h2{
     line-height: 12px;
@@ -39,15 +42,22 @@ div{
 .header i{
     font-size: 1.5rem;
 }
-img{
+
+.watch>img{
+    display: flex;
     align-items: center;
-    margin-top: 10px;
+    justify-content: center;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .dot{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 10px 10px;
+    margin: 2px 2px;
     background-color: #ff473a;
     border-radius: 50%;
     display: inline-block;
@@ -58,7 +68,7 @@ img{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 10px 10px;
+    margin: 2px 2px;
     background-color: #666;
     border-radius: 50%;
     display: inline-block;
